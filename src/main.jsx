@@ -10,7 +10,7 @@ import Hustling from './components/HustleIdeas/Hustling.jsx'
 import Home from './components/Home/Home.jsx'
 import About from './components/About/About.jsx'
 import UrbanNature from './components/UrbanNature/UrbanNature.jsx'
-import { CategoriesProvider } from './components/CategoriesComponent/CategoriesComponent.jsx';
+import LocalEntrepreneurship from './components/Categories/subCategoriesDirector/LocalEntrepreneurship.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -25,14 +25,13 @@ const router = createBrowserRouter(
         path='about'
         element={<About />}
       />
+      <Route path='/local-entrepreneurship' element={<LocalEntrepreneurship />} />
     </Route>
   )
 )
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <CategoriesProvider>
       <RouterProvider router={router} />
-    </CategoriesProvider>
   </React.StrictMode>,
 )

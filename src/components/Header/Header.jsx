@@ -7,9 +7,9 @@ export default function Header() {
     return (
         <header className="shadow sticky z-50 top-0">
             <nav className="grid gap-2 bg-white border-gray-200 px-4 lg:px-6 py-2.5">
-                <div className="flex justify-between items-center mx-full max-w-screen-xl">
+                <div className="grid grid-cols-2 mx-full max-w-screen-xl">
                     <div>
-                        <Link to="/" className="">
+                        <Link to="/" className='h-full flex items-center justify-center'>
                             <img
                                 src="https://alexharkness.com/wp-content/uploads/2020/06/logo-2.png"
                                 className="h-12"
@@ -17,7 +17,7 @@ export default function Header() {
                             />
                         </Link>
                     </div>
-                    <div>
+                    <div className='h-full flex items-center justify-center'> 
                         <button
                             onClick={() => setIsMenuOpen(!isMenuOpen)}
                             type="button"
@@ -36,7 +36,7 @@ export default function Header() {
                         </button>
                     </div>
 
-                    <div>
+                    <div className='h-full flex items-center justify-center'>
                         <Link
                             to="#"
                             className="text-gray-800 hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-normal rounded-lg text-base px-2 md:px-3 lg:px-4 py-2 md:py-2.5 lg:py-3 focus:outline-none"
@@ -45,7 +45,7 @@ export default function Header() {
                         </Link>
                     </div>
 
-                    <div className='px-3 md:px-3.5 lg:px-5 py-1 lg:py-1.5'>
+                    <div className='px-3 md:px-3.5 lg:px-5 py-1 lg:py-1.5 h-full flex items-center justify-center'>
                         <Link
                             to="#"
                             className="text-white bg-orange-700 hover:bg-orange-800 focus:ring-4 focus:ring-orange-300 font-medium rounded-lg text-sm px-3.5 md:px-4 lg:px-5 py-2 lg:py-2.5 focus:outline-none"

@@ -10,7 +10,7 @@ const posts = [
     slug: "hustling",
     title: sideHustlePost.title,
     image: sideHustlePost.image,
-    intro: sideHustlePost.intro ? sideHustlePost.intro[0] : "",
+    intro: sideHustlePost.intro ? sideHustlePost.intro[ 0 ] : "",
   },
   {
     slug: "culture",
@@ -23,13 +23,13 @@ const posts = [
     slug: "japan-cleaning-routine",
     title: japanCleaningRoutine.title,
     image: japanCleaningRoutine.image,
-    intro: japanCleaningRoutine.intro ? japanCleaningRoutine.intro[0] : "",
+    intro: japanCleaningRoutine.intro ? japanCleaningRoutine.intro[ 0 ] : "",
   },
   {
     slug: "monsoon-tracers",
     title: moonsonTracePlant.title,
     image: moonsonTracePlant.image,
-    intro: moonsonTracePlant.intro ? moonsonTracePlant.intro[0] : "",
+    intro: moonsonTracePlant.intro ? moonsonTracePlant.intro[ 0 ] : "",
   }
 ];
 
@@ -40,11 +40,14 @@ function PostPreview({ post }) {
       className="block bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden group"
     >
       <div className="overflow-hidden">
-        <img
-          src={post.image}
-          alt={post.title}
-          className="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300"
-        />
+        {post.image ? (
+          <img
+            src={post.image}
+            alt={post.title}
+            className="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-300"
+          />
+        ) : null}
+
       </div>
       <div className="p-4">
         <h2 className="text-xl font-bold mb-2 text-gray-900 group-hover:text-orange-700 transition-colors">
