@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Contact() {
+export const Contact = () => {
     return (
         <div className="relative flex items-center justify-center min-h-[700px] bg-white py-6 px-2 sm:px-4">
             <div className="w-full max-w-6xl mx-auto">

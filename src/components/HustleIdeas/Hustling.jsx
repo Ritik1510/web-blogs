@@ -21,7 +21,7 @@ function PostPreview({ post }) {
     <div>
       <Link
         to={`/${post.slug}`}
-        className="grid block bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden group"
+        className="grid bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden group"
       >
         <div className="overflow-hidden">
           {post.image ? (
@@ -45,7 +45,6 @@ function PostPreview({ post }) {
 }
 
 export default function Hustling() {
-
   return (
     <main className="max-w-4xl mx-auto py-12 px-4">
       <div className="grid md:grid-cols-2 gap-8">

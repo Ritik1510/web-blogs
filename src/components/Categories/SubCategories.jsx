@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-function SubCategories({subCategoryArray}) {
+export const SubCategories = ({subCategoryArray}) => {
   return (
     <div>
       <ul className='flex items-center justify-start p-1 md:p-2 lg:p-3 xl:p-4 gap-3 lg:gap-4 xl:gap-5'>
@@ -21,6 +21,3 @@ function SubCategories({subCategoryArray}) {
       </ul>
     </div>);
 };
-
-
-export default SubCategories

@@ -1,8 +1,8 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import SubCategories from '../Categories/SubCategories.jsx'
-export default function UrbanNature() {
 
+const UrbanNature = () => {
     const SubCategoriesArray = [
         "Local Entrepreneurship",
         "Crafting"
@@ -27,8 +27,12 @@ export default function UrbanNature() {
                     ))}
                 </ul>
             </div> */}
+            <h1>
+                urban nature here!
+            </h1>
             <SubCategories subCategoryArray={SubCategoriesArray}/>
         </>
     );
 }
 
+export default UrbanNature;

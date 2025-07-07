@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      screens:{
+        sm550:'550px',
+        md850:'850px',
+      },
       fontFamily: {
         'sans': ['Lato', 'sans-serif'],
         'lato': ['Lato', 'sans-serif'],

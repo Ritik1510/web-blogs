@@ -1,6 +1,6 @@
 import React from "react";
 
-const CategoryBar = ({ categories }) => {
+export const CategoryBar = ({ categories }) => {
   if (!categories.length) return null;
 
   return (
@@ -14,4 +14,4 @@ const CategoryBar = ({ categories }) => {
   );
 };
 
-export default CategoryBar;
+

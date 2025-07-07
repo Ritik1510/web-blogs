@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function About() {
+export function About() {
   return (
     <section className="max-w-2xl mx-auto py-12 px-4 text-center">
       <img

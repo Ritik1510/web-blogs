@@ -1,7 +1,7 @@
 import React from 'react'
 import postData from '../postsData/CivicPosts.json'
 
-export default function Culture() {
+export const Culture = () => {
     return (
         <div className="py-16 bg-white">
             <div className="grid gap-2 m-auto px-6 text-gray-600 md:px-12 xl:px-6">

@@ -110,3 +110,91 @@ Metro professionals juggle global and local work norms.  Asia is diverse: Indian
 * **“Off the Clock: 5 Unplugging Rituals (Scandinavian Homes to Indian Streets)”** – Ideas to relax after work, from Nordic lifestyle habits to walking in the community.
 
 **Sources:** We drew on recent lifestyle and urbanism analyses. Each headline reflects trends and cross-cultural comparisons to spark actionable ideas for Indian city readers.
+
+# Update of importing methods and apply lazy loading to routing system....
+```jsx
+import React, { Suspense } from 'react'
+import ReactDOM from 'react-dom/client'
+import './index.css'
+import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
+import Layout from './Layout.jsx'
+import Contact from './components/Contact/Contact.jsx'
+import User from './components/User/USer.jsx'
+import Culture from './components/Culture/Culture.jsx'
+import Hustling from './components/HustleIdeas/Hustling.jsx'
+import Home from './components/Home/Home.jsx'
+import About from './components/About/About.jsx'
+import UrbanNature from './components/UrbanNature/UrbanNature.jsx'
+import LocalEntrepreneurship from './components/Categories/subCategoriesDirector/LocalEntrepreneurship.jsx'
+
+const router = createBrowserRouter(
+  {
+    path: '/',
+    element: <Layout />,
+    errorElement: <div>Error loading page</div>,
+    children: [
+       {
+        index: true,
+        lazy: () => import('./components/Home/Home.jsx'),
+        errorElement: <ErrorPage />,
+      },
+      {
+        path: 'hustling',
+        lazy: () => import('./components/HustleIdeas/Hustling.jsx'),
+        errorElement: <ErrorPage />,
+      },
+      {
+        path: 'culture',
+        lazy: () => import('./components/Culture/Culture.jsx'),
+        errorElement: <ErrorPage />,
+      },
+      {
+        path: 'urban-nature',
+        lazy: () => import('./components/UrbanNature/UrbanNature.jsx'),
+        errorElement: <ErrorPage />,
+      },
+      {
+        path: 'contact',
+        lazy: () => import('./components/Contact/Contact.jsx'),
+        errorElement: <ErrorPage />,
+      },
+      {
+        path: 'user/:userid',
+        lazy: () => import('./components/User/USer.jsx'),
+        errorElement: <ErrorPage />,
+      },
+      {
+        path: 'about',
+        lazy: () => import('./components/About/About.jsx'),
+        errorElement: <ErrorPage />,
+      },
+      {
+        path: 'local-entrepreneurship',
+        lazy: () => import('./components/Categories/subCategoriesDirector/LocalEntrepreneurship.jsx'),
+        errorElement: <ErrorPage />,
+      }
+    ]
+  }
+  // createRoutesFromElements(
+  //   <Route path='/' element={<Layout />}>
+  //     <Route index element={<Home />} />
+  //     <Route path='/hustling' element={<Hustling />} />
+  //     <Route path='culture' element={<Culture />} />
+  //     <Route path='urban-nature' element={<UrbanNature />} />
+  //     <Route path='contact' element={<Contact />} />
+  //     <Route path='user/:userid' element={<User />} />
+  //     <Route
+  //       path='about'
+  //       element={<About />}
+  //     />
+  //     <Route path='/local-entrepreneurship' element={<LocalEntrepreneurship />} />
+  //   </Route>
+  // )
+)
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <RouterProvider router={router} />
+  </React.StrictMode>,
+)
+```

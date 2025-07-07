@@ -2,7 +2,7 @@ import React from "react";
 import sideHustleData from "../../postsData/sideHustles.json";
 import CategoryDate from "../../smallFunctionComponents/CategoryDate";
 
-export default function Hustling() {
+export const Hustling = () => {
   const {
     title,
     intro,
