@@ -1,17 +1,15 @@
 import React from "react";
-import sideHustleData from "../../postsData/sideHustles.json";
-import CategoryDate from "../../smallFunctionComponents/CategoryDate";
+import CategoryDate from "../smallFunctionComponents/CategoryDate.jsx";
 
-export const Hustling = () => {
+function BlogStructure({ data }) {
   const {
     title,
     intro,
     sections,
-  } = sideHustleData;
+  } = data;
 
   return (
     <div className="grid sm:gap-2 lg:gap-4 xl:gap-6 bg-gray-50 min-h-screen p-3 md:p-4">
-
       <article className="grid gap-4 max-w-3xl mx-auto ">
         <CategoryDate /> 
         {/* Title */}
@@ -53,3 +51,4 @@ export const Hustling = () => {
     </div>
   );
 }
+export default BlogStructure;

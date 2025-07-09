@@ -1,26 +1,54 @@
 {
-    "slug": "civic-practices",
-    "title": "5 Civic Practices to Make Our Indian Metros Shine: Lessons from Japan, Singapore, and Beyond",
-    "category": "Culture",
-    "date": "2025-06-13",
-    "image": "/images/time_for_change.png",
-    "introFirst": "Hey there, fellow urban Indians! Living in bustling metros like Delhi, Mumbai, Bangalore, or Chennai, we’ve all seen how a little carelessness—like spitting on the street or ignoring traffic rules—can make our cities feel chaotic. These aren’t just small annoyances; they’re signs of a bigger problem. When we don’t take care of our surroundings, it leads to littered streets, clogged drains, and even accidents. It’s not just about cleanliness; it’s about respect—for our neighbors, our environment, and ourselves.",
-    "introSecond": "These are the everyday problems that frustrate us all, and they’re holding back our cities from shining as they should. So, let’s dive into a refreshed take on five civic practices every Indian in our metros should embrace, inspired by how people in places like Japan and Singapore make their cities work so smoothly. I’ve also woven in some practical ideas to make our cities cleaner, safer, and more livable—written from the heart, like a friend sharing tips over chai!",
-    "sections": [
-        {
-            "heading": "1. Say No to Spitting in Public",
-            "image": "/images/time_for_change.png",
-            "body": [
-                "You know that moment when you’re walking down a busy street in Mumbai and spot a red paan stain on the pavement? It’s gross, and worse, it’s a health hazard. Mumbai sees over 50,000 tuberculosis cases yearly, and spitting in public spreads germs like nobody’s business.",
-                "In Japan, you’d never see someone spit on the street—it’s practically a cultural sin! Their kids learn early to keep public spaces clean, even cleaning their own classrooms. Singapore slaps a hefty S$300 (₹18,000) fine for spitting, and it works because people take pride in their city."
-            ]
-        },
-        {
-            "heading": "What We Can Do",
-            "body": [
-                "Let’s ditch the habit of spitting paan, gutka, or even saliva on roads or metro platforms. Carry a tissue or use spittoons if you chew paan. Support Swachh Bharat by calling out spitting when you see it—peer pressure works!",
-                "Cities like Delhi have started ₹200–₹1,000 fines for spitting, so let’s back stricter enforcement and spread awareness through cool social media campaigns, like short reels showing clean streets as a point of pride."
-            ]
-        }
-    ]
+  "slug": "civic-practices",
+  "title": "5 Civic Practices to Make Our Indian Metros Shine: Lessons from Japan, Singapore, and Beyond",
+  "category": "Culture",
+  "date": "2025-06-13",
+  "image": "/images/time_for_change.png",
+  "intro": [
+    "Hey there, fellow urban Indians! Living in bustling metros like Delhi, Mumbai, Bangalore, or Chennai, we’ve all seen how a little carelessness—like spitting on the street or ignoring traffic rules—can make our cities feel chaotic. These aren’t just small annoyances; they’re signs of a bigger problem. When we don’t take care of our surroundings, it leads to littered streets, clogged drains, and even accidents. It’s not just about cleanliness; it’s about respect—for our neighbors, our environment, and ourselves.",
+    "These are the everyday problems that frustrate us all, and they’re holding back our cities from shining as they should. So, let’s dive into a refreshed take on five civic practices every Indian in our metros should embrace, inspired by how people in places like Japan and Singapore make their cities work so smoothly. I’ve also woven in some practical ideas to make our cities cleaner, safer, and more livable—written from the heart, like a friend sharing tips over chai!"
+  ],
+  "sections": [
+    {
+      "heading": "Say No to Spitting in Public",
+      "image": "/images/no-spitting.png",
+      "body": [
+        "You know that moment when you’re walking down a busy street and spot a paan stain on the pavement? It’s not just gross—it’s a health hazard. India has 27% of the world’s TB cases, and spitting spreads those germs quickly:contentReference[oaicite:0]{index=0}. In Japan, spitting on the street is practically unheard of—they even teach kids to clean classrooms. Singapore fines a whopping S$1,000 for littering or spitting:contentReference[oaicite:1]{index=1}. Let’s ditch the habit: carry a tissue or use a spittoon if you must, and spread the word on social media to make clean streets our pride."
+      ]
+    },
+    {
+      "heading": "Follow Traffic Rules & Be Courteous",
+      "image": "/images/traffic_rules.png",
+      "body": [
+        "In our busy metros, everyone’s in a rush, but ignoring traffic rules just makes things worse. In Singapore and Japan, people respect signals and lanes—honking at a red light or cutting queues on the road is a big no-no. Here at home, we can help by waiting for the green light, driving at safe speeds, and giving way at zebra crossings. It’s not only about avoiding fines; following the rules keeps everyone safer and happier on the road. Let’s keep our cool behind the wheel and show some courtesy—after all, a smooth commute makes a bright city."
+      ]
+    },
+    {
+      "heading": "Keep Our Streets and Drains Clean",
+      "image": "/images/keep-streets-clean.png",
+      "body": [
+        "You’ve seen it during monsoon: drains clogged with trash, dirty puddles everywhere. Littering is more than an eyesore — it causes floods and health issues. In cities like Singapore and Tokyo, people rarely drop garbage on the street; they carry it until a bin appears. In fact, Singapore fines S$1,000 for dropping litter:contentReference[oaicite:2]{index=2}. We don’t have to be that strict, but we can all do our part: use dustbins, avoid throwing trash into drains, and even join a neighborhood clean-up now and then. A little effort keeps our streets shiny and our drains flowing."
+      ]
+    },
+    {
+      "heading": "Be Respectful and Courteous in Public",
+      "image": "/images/courtesy.png",
+      "body": [
+        "Ever noticed people shouting on phones in trains or barging into queues? In many cities abroad, that would be considered rude. One Singaporean observer noted Asians tend to 'accept what they are told to do for the common good':contentReference[oaicite:3]{index=3}, which means quietly waiting your turn or speaking softly in public. We can borrow that mindset: stand patiently in line, give up seats to the elderly or pregnant, and keep noise to a minimum. These small acts of respect make daily life smoother for everyone and earn you a lot of goodwill."
+      ]
+    },
+    {
+      "heading": "Respect Public Property & Spaces",
+      "image": "/images/public-property.png",
+      "body": [
+        "Our metros have lots of public amenities — buses, parks, benches, statues. Treat them well because they belong to all of us. In Singapore, even the smallest vandalism can cost you up to S$5,000:contentReference[oaicite:4]{index=4}, so people think twice before defacing property. Japanese public spaces rarely have graffiti or broken equipment. Let’s do the same: don’t scribble on walls, break seats, or pluck park plants. When we protect what’s public, our city stays more beautiful and our tax money goes into improving services rather than repairs."
+      ]
+    },
+    {
+      "heading": "Key Takeaway",
+      "body": [
+        "All these civic habits have one thing in common: they start with respect and cost almost nothing. It just takes a little awareness to change daily routines. Begin by fixing one thing – maybe stop spitting or give up that extra honk – and encourage friends to do the same. When we all chip in, our city becomes cleaner, safer, and more pleasant. After all, a shining metro is built by millions of small friendly choices we make every day. So let’s keep learning from each other (and from cities like Japan and Singapore) over our morning chai, and watch our Indian metros sparkle."
+      ]
+    }
+  ]
 }

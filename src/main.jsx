@@ -23,11 +23,29 @@ const router = createBrowserRouter([
           return { Component };
         },
         errorElement: <ErrorForInvalidImport />,
+        children: [
+          {
+            path: 'local-entrepreneurship',
+            lazy: async () => {
+              const { default: Component } = await import('./components/HustleIdeas/Children/LocalEntrepreneurship.jsx');
+              return { Component };
+            },
+            errorElement: <ErrorForInvalidImport />,
+          },
+          {
+            path: 'urban-bazar-online-services',
+            lazy: async () => {
+              const { default: Component } = await import('./components/HustleIdeas/Children/UrbanBazarOnlineServices.jsx');
+              return { Component };
+            },
+            errorElement: <ErrorForInvalidImport />,
+          }
+        ]
       },
       {
-        path: 'culture',
+        path: 'urban-habits',
         lazy: async () => {
-          const { default: Component } = await import('./components/Culture/Culture.jsx');
+          const { default: Component } = await import('./components/UrbanHabits/UrbanHabits.jsx');
           return { Component };
         },
         errorElement: <ErrorForInvalidImport />,
@@ -61,14 +79,6 @@ const router = createBrowserRouter([
         path: 'about',
         lazy: async () => {
           const { default: Component } = await import('./components/About/About.jsx');
-          return { Component };
-        },
-        errorElement: <ErrorForInvalidImport />,
-      },
-      {
-        path: 'local-entrepreneurship',
-        lazy: async () => {
-          const { default: Component } = await import('./components/Categories/subCategoriesDirector/LocalEntrepreneurship.jsx');
           return { Component };
         },
         errorElement: <ErrorForInvalidImport />,

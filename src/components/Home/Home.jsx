@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 import civicPost from "../postsData/CivicPosts.json";
 import sideHustlePost from "../postsData/sideHustles.json";
 import japanCleaningRoutine from "../postsData/japanCleaningRoutine.json";
-import moonsonTracePlant from "../postsData/moonsonTracePlant.json";
+import moonsonTracePlant from "../postsData/monsoonTerracePlants.json";
 
 const posts = [
   {
-    slug: "monsoon-tracers",
+    slug: "monsoon-terrace-plant",
     title: moonsonTracePlant.title,
     image: moonsonTracePlant.image,
     intro: moonsonTracePlant.intro ? moonsonTracePlant.intro[ 0 ] : "",
@@ -25,7 +25,7 @@ const posts = [
     intro: japanCleaningRoutine.intro ? japanCleaningRoutine.intro[ 0 ] : "",
   },
   {
-    slug: "culture",
+    slug: "urban-habits",
     title: civicPost.title,
     image: civicPost.image,
     intro: civicPost.introFirst || "",
@@ -61,7 +61,7 @@ function PostPreview({ post }) {
 export default function Home() {
   return (
     <main className="max-w-full mx-auto py-12 sm:px-4 md:px-5 lg:px-6 border-4 border-gray-400">
-      <div className="grid gap-8 sm550:grid-cols-2 md850:grid-cols-3 ">
+      <div className="grid sm:gap-5 md:gap-6lg:gap-8 sm550:grid-cols-2 md850:grid-cols-3 ">
         {posts.map((post) => (
           <PostPreview key={post.slug} post={post} />
         ))}
