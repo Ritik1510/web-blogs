@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, Outlet, useMatch } from "react-router-dom";
-import sideHustlePost from "../postsData/sideHustles.json";
-import digitalBazarOnlineServices from "../postsData/digitalBazarOnline.json"
+import sideHustlePost from "../../components/postsData/sideHustles.json";
+import digitalBazarOnlineServices from "../../components/postsData/digitalBazarOnline.json"
 
 const subCategoryArray = [
   "Local Entrepreneurship",

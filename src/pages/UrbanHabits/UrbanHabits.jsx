@@ -1,6 +1,6 @@
 import React from 'react'
-import postData from '../postsData/CivicPosts.json'
-import BlogStructure from '../ui/blogStructure';
+import postData from '../../components/postsData/CivicPosts.json'
+import BlogStructure from '../../components/ui/blogStructure';
 
 const UrbanHabits = () => {
     return (

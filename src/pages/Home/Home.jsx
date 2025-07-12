@@ -1,9 +1,10 @@
+
 import React from "react";
 import { Link } from "react-router-dom";
-import civicPost from "../postsData/CivicPosts.json";
-import sideHustlePost from "../postsData/sideHustles.json";
-import japanCleaningRoutine from "../postsData/japanCleaningRoutine.json";
-import moonsonTracePlant from "../postsData/monsoonTerracePlants.json";
+import civicPost from "../../components/postsData/CivicPosts.json";
+import sideHustlePost from "../../components/postsData/sideHustles.json";
+import japanCleaningRoutine from "../../components/postsData/japanCleaningRoutine.json";
+import moonsonTracePlant from "../../components/postsData/monsoonTerracePlants.json";
 
 const posts = [
   {

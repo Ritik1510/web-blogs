@@ -1,6 +1,6 @@
 import React from 'react'
-import BlogStructure from '../ui/blogStructure';
-import postData from '../postsData/monsoonTerracePlants.json';
+import BlogStructure from '../../components/ui/blogStructure';
+import postData from '../../components/postsData/monsoonTerracePlants.json';
 
 function UrbanNature() {
   return (
