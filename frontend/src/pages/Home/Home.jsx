@@ -20,6 +20,7 @@ const posts = [
     intro: sideHustlePost.intro ? sideHustlePost.intro[ 0 ] : "",
   },
   {
+    
     slug: "japan-cleaning-routine",
     title: japanCleaningRoutine.title,
     image: japanCleaningRoutine.image,
