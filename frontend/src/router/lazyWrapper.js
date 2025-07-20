@@ -1,7 +1,6 @@
-export function lazyImport(path) {
+export function lazyImport(factory) {
   return async () => {
-    const mod = await import(path);
+    const mod = await factory();
     return { default: mod.default };
   };
 }
-

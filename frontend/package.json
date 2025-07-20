@@ -1,6 +1,10 @@
 {
   "name": "about-civic",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ohcnetwork/care_fe.git"
+  },
   "version": "0.0.0",
   "type": "module",
   "scripts": {
